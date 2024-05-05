@@ -10,7 +10,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://mern-project-api-kunalverma45s-projects.vercel.app"],
+    origin: [""],
     methods: ["POST"],
     credentials: true,
   })
