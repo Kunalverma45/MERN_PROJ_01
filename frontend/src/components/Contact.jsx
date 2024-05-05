@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "https://mern-project-api-kunalverma45s-projects.vercel.app/api/v1/message/send",
+        "https://mern-project-api-kunalverma45s-projects.vercel/app/api/v1/message/send",
         {
           name,
           email,
